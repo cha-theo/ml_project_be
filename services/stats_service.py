@@ -18,8 +18,8 @@ def get_all_data():
 
 
 def max_host_id():
-    dataframe = pd.read_csv(os.getcwd() + "/repo/listings_preprocessed.csv")
+    dataframe = pd.read_csv(os.getcwd() + '/repo/listings_preprocessed.csv', encoding="utf8")
     return {
-                "id": int(dataframe["id"].max()),
+                "nei": dataframe["neighbourhood_cleansed"][0]
                 
             }
