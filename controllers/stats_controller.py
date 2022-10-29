@@ -1,5 +1,6 @@
-from flask import Blueprint, jsonify
+from flask import Blueprint, jsonify, request
 from services import stats_service
+import logging 
 
 api = Blueprint(
     name="stats_controller",
@@ -22,3 +23,4 @@ def get_raw_data():
 @api.route("/max_id")
 def get_max_host_id():
     return (stats_service.max_host_id()), 200
+
