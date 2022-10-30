@@ -10,3 +10,5 @@ api = Blueprint(
 @api.route("/")
 def ping():
     return "Pong"
+
+
