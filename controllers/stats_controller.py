@@ -24,7 +24,3 @@ def get_raw_data():
 def get_max_host_id():
     return (stats_service.max_host_id()), 200
 
-@api.route("/foo", methods=['POST', 'GET']) 
-def foo():
-    data = request.json
-    return (stats_service.test_function_with_data(data)), 200
