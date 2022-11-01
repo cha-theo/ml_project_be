@@ -107,7 +107,7 @@ def calculate_price(data):
     data["number_of_reviews"] = [int(data["number_of_reviews"])]
     data["reviews_per_month"] = [int(data["reviews_per_month"])]
 
-# assign value to multiple fiels    
+    # assign value to multiple fiels    
     if data["room_type"] in room_type_dict:
         for key in room_type_dict.keys():
             room_type_dict[key] = [0]
@@ -118,14 +118,18 @@ def calculate_price(data):
             neighborhoods_dict[key] = [0]
         neighborhoods_dict[data["neighbourhood"]] = [1]
 
-# connect our main dict with room_type_dict and neighborhoods_dict
+    # connect our main dict with room_type_dict and neighborhoods_dict
+    data.update(room_type_dict)
+    data.update(neighborhoods_dict)
 
-
+    # remove the excess values(neighbourhood, room_type)
+    del data["neighbourhood"]
+    del data["room_type"]
 
     # data2 = pd.DataFrame.from_dict(dict)
     # data_input = pd.DataFrame.from_dict(data)
 
     # model_result = loaded_model.predict(data_input)
 
-    return neighborhoods_dict
+    return '{}'.format(data)
     # return ('The best price for your home is: {:0.2f}€'.format((model_result[0])))
