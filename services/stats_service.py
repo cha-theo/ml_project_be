@@ -5,7 +5,7 @@ import logging
 from flask import Blueprint, jsonify, request
 import pickle
 
-loaded_model = pickle.load(open('repo/finalized_model.sav', 'rb'))
+# loaded_model = pickle.load(open('repo/finalized_model.sav', 'rb'))
 
 
 

@@ -6,7 +6,7 @@ from flask import Blueprint, jsonify, request
 import pickle
 
 
-loaded_model = pickle.load(open('repo/finalized_model.sav', 'rb'))
+loaded_model = pickle.load(open('repo/trained_model.sav', 'rb'))
 
 
 # we get the data from the form as dictionary and we return the best price based on our model
@@ -89,11 +89,15 @@ room_type_dict = {"room_type_Entire home/apt": [0],
                   "room_type_Shared room": [0]}
 
 
+
+amenities_dict = {"amenities_high": [0],
+                  "amenities_low": [0],
+                  "amenities_medium": [0]}
+
 def calculate_price(data):
 
 # convert the data for the model
     data["accommodates"] = [int(data["accommodates"])]
-    data["amenities"] = [int(data["amenities"])]
     data["availability_365"] = [int(data["availability_365"])]
     data["bathroom"] = [int(data["bathroom"])]
     data["bathroom_type_private"] = [int(data["bathroom_type_private"])]
@@ -118,6 +122,11 @@ def calculate_price(data):
             neighborhoods_dict[key] = [0]
         neighborhoods_dict[data["neighbourhood"]] = [1]
 
+    if data["amenities"] in amenities_dict:
+        for key in amenities_dict.keys():
+            amenities_dict[key] = [0]
+        amenities_dict[data["amenities"]] = [1]
+
     # connect our main dict with room_type_dict and neighborhoods_dict
     data.update(room_type_dict)
     data.update(neighborhoods_dict)
@@ -125,11 +134,10 @@ def calculate_price(data):
     # remove the excess values(neighbourhood, room_type)
     del data["neighbourhood"]
     del data["room_type"]
-
-    # data2 = pd.DataFrame.from_dict(dict)
+    
+    data2 = pd.DataFrame.from_dict(data)
     # data_input = pd.DataFrame.from_dict(data)
 
-    # model_result = loaded_model.predict(data_input)
+    # model_result = loaded_model.predict(data2)
 
-    return '{}'.format(data)
-    # return ('The best price for your home is: {:0.2f}€'.format((model_result[0])))
+    return ('The best price for your home is: {}€'.format(data))
