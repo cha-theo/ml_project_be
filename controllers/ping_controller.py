@@ -3,7 +3,7 @@ from flask import Blueprint
 api = Blueprint(
     name="ping_controller",
     import_name="ping_controller",
-    url_prefix="/emp/api/v1/ping"
+    url_prefix="/bnb/api/v1/ping"
 )
 
 
