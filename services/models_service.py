@@ -91,7 +91,7 @@ room_type_dict = {"room_type_Entire home/apt": [0],
 
 def calculate_price(data):
 
-    # convert the data for the model
+# convert the data for the model
     data["accommodates"] = [int(data["accommodates"])]
     data["amenities"] = [int(data["amenities"])]
     data["availability_365"] = [int(data["availability_365"])]
@@ -107,16 +107,25 @@ def calculate_price(data):
     data["number_of_reviews"] = [int(data["number_of_reviews"])]
     data["reviews_per_month"] = [int(data["reviews_per_month"])]
 
-# fix change in values    
+# assign value to multiple fiels    
     if data["room_type"] in room_type_dict:
+        for key in room_type_dict.keys():
+            room_type_dict[key] = [0]
         room_type_dict[data["room_type"]] = [1]
+        
+    if data["neighbourhood"] in neighborhoods_dict:
+        for key in neighborhoods_dict.keys():
+            neighborhoods_dict[key] = [0]
+        neighborhoods_dict[data["neighbourhood"]] = [1]
+
+# connect our main dict with room_type_dict and neighborhoods_dict
 
 
- 
+
     # data2 = pd.DataFrame.from_dict(dict)
     # data_input = pd.DataFrame.from_dict(data)
 
     # model_result = loaded_model.predict(data_input)
 
-    return room_type_dict
+    return neighborhoods_dict
     # return ('The best price for your home is: {:0.2f}€'.format((model_result[0])))
