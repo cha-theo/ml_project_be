@@ -5,22 +5,11 @@ import logging
 from flask import Blueprint, jsonify, request
 import pickle
 
-# loaded_model = pickle.load(open('repo/finalized_model.sav', 'rb'))
 
 
 
-# find values for charts
-a =1
-b = [10,20,30,40]
+# import file for stats
 df = pd.read_csv(os.getcwd() + '/repo/listings_preprocessed.csv', encoding="utf8")
-
-max_price_per_room_type = []
-
-
-#max price per room type
-for x in df.groupby('room_type')['price'].max():
-    max_price_per_room_type.append(x)
-
 
 #dummy data chart
 
@@ -66,6 +55,8 @@ for i in range(len(list(df['room_type'].unique()))):
     "mean price": round(df.groupby('room_type')['price'].mean()[i],2),
     "name": sorted(df['room_type'].unique())[i]}
     barChart.append(bar_chart)
+
+
 
 #radar chart for top5 amenities
 RadarChart = []
@@ -146,6 +137,8 @@ for i in range(len(amenities_dict)):
     "fullMark": max(amenities_dict.values())}
     RadarChart.append(radar_chart)
 
+
+
 #radial bar chart for room type percentage
 RadialBarChart = []
 
@@ -162,6 +155,8 @@ for key in room_type_dict:
     i += 1
     RadialBarChart.append(radial_bar_chart)
 
+
+
 #scatter plot for top3 most expensive neighborhood visualization and their geographical boundaries with respect to the Acropolis
 ScatterChart = []
 
@@ -175,7 +170,7 @@ for key in neighborhoods_top3_dict:
   df_nei.reset_index(inplace=True, drop=True)
   for i in range(len(df_nei)):
     d = {"x": df_nei['longitude'][i],
-    "y": df_nei['longitude'][i]}
+    "y": df_nei['latitude'][i]}
     if i == 1:
       data_1.append(d)
     elif i == 2:
@@ -183,32 +178,37 @@ for key in neighborhoods_top3_dict:
     elif i == 3:
       data_3.append(d)
 
-data_4 = [{"x": 37.9715, "y": 23.7257}] #Acropolis
+data_4 = [{"x": 23.7257, "y": 37.9715 }] #Acropolis
 
 ScatterChart.append([data_1, data_2, data_3, data_4])
 
+
+
 #line chart of registered hosts per year
 df['registration_year'] = df[df['host_since'].notna()]['host_since'].apply(lambda x: x.split('-')[0])
-reg_hosts_per_year = df.groupby('registration_year')['registration_year'].count().sort_values(ascending=False).to_dict()
+reg_hosts_per_year = df.groupby('registration_year')['registration_year'].count().sort_values(ascending=True).to_dict()
 
 LineChart = []
 
 for key in reg_hosts_per_year:
-  line_chart = {"uv": reg_hosts_per_year[key],
-    "name": key}
+  line_chart = {"new_users": reg_hosts_per_year[key],
+    "year": int(key)}
   LineChart.append(line_chart)
 
 
 
 
 #charts in json type
-chart_types = ['barChart','radarChart','radialBarChart','scatterChart', 'LineChart']
+chart_types = ['barChart','radarChart','radialBarChart']
 
 charts = dict.fromkeys(chart_types)
 charts['barChart'] = barChart
 charts['radarChart'] = RadarChart
 charts['radialBarChart'] = RadialBarChart
-charts['scatterChart'] = ScatterChart
+charts['neig1'] = data_1
+charts['neig2'] = data_2
+charts['neig3'] = data_3
+charts['acr'] = data_4
 charts['lineChart'] = LineChart
 
 
@@ -216,8 +216,8 @@ charts['lineChart'] = LineChart
 
 # returns the stats for charts in json
 def stat_for_charts():
-    df = pd.read_csv(os.getcwd() + '/repo/listings_preprocessed.csv', encoding="utf8")
     return charts
+
 
 # returns all the data from listings_preprocessed.csv in json
 def get_all_data():

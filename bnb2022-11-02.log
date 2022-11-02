@@ -18,3 +18,375 @@
 2022-11-02 04:39:20,344 -  * Debugger is active!
 2022-11-02 04:39:20,371 -  * Debugger PIN: 745-011-106
 2022-11-02 04:39:32,884 - 127.0.0.1 - - [02/Nov/2022 04:39:32] "GET /bnb/api/v1/ping/ HTTP/1.1" 200 -
+2022-11-02 13:44:57,038 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2022-11-02 13:44:57,038 - [33mPress CTRL+C to quit[0m
+2022-11-02 13:44:57,043 -  * Restarting with stat
+2022-11-02 13:44:59,423 -  * Debugger is active!
+2022-11-02 13:44:59,431 -  * Debugger PIN: 905-071-611
+2022-11-02 13:45:08,891 - 127.0.0.1 - - [02/Nov/2022 13:45:08] "[33mGET / HTTP/1.1[0m" 404 -
+2022-11-02 13:45:09,935 - 127.0.0.1 - - [02/Nov/2022 13:45:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-02 13:45:22,196 - 127.0.0.1 - - [02/Nov/2022 13:45:22] "GET /bnb/api/v1/stats/raw_data HTTP/1.1" 200 -
+2022-11-02 13:45:45,127 - 127.0.0.1 - - [02/Nov/2022 13:45:45] "[32mGET /bnb/api/v1/stats HTTP/1.1[0m" 308 -
+2022-11-02 13:45:45,161 - 127.0.0.1 - - [02/Nov/2022 13:45:45] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 13:48:24,870 - 127.0.0.1 - - [02/Nov/2022 13:48:24] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 13:48:45,675 - 127.0.0.1 - - [02/Nov/2022 13:48:45] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:06:58,406 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:06:59,878 -  * Restarting with stat
+2022-11-02 14:07:04,387 -  * Debugger is active!
+2022-11-02 14:07:04,398 -  * Debugger PIN: 905-071-611
+2022-11-02 14:07:04,830 - 127.0.0.1 - - [02/Nov/2022 14:07:04] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:07:25,241 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:07:25,458 -  * Restarting with stat
+2022-11-02 14:07:27,812 -  * Debugger is active!
+2022-11-02 14:07:27,818 -  * Debugger PIN: 905-071-611
+2022-11-02 14:07:55,393 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:07:55,725 -  * Restarting with stat
+2022-11-02 14:07:58,104 -  * Debugger is active!
+2022-11-02 14:07:58,110 -  * Debugger PIN: 905-071-611
+2022-11-02 14:07:58,536 - 127.0.0.1 - - [02/Nov/2022 14:07:58] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:09:36,863 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:09:37,093 -  * Restarting with stat
+2022-11-02 14:09:39,461 -  * Debugger is active!
+2022-11-02 14:09:39,468 -  * Debugger PIN: 905-071-611
+2022-11-02 14:09:40,137 - 127.0.0.1 - - [02/Nov/2022 14:09:40] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:17:34,919 - 127.0.0.1 - - [02/Nov/2022 14:17:34] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:17:40,257 - 127.0.0.1 - - [02/Nov/2022 14:17:40] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:18:31,774 - 127.0.0.1 - - [02/Nov/2022 14:18:31] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:18:43,782 - 127.0.0.1 - - [02/Nov/2022 14:18:43] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:20:35,565 - 127.0.0.1 - - [02/Nov/2022 14:20:35] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:20:35,660 - 127.0.0.1 - - [02/Nov/2022 14:20:35] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:20:57,674 - 127.0.0.1 - - [02/Nov/2022 14:20:57] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:22:35,047 - 127.0.0.1 - - [02/Nov/2022 14:22:35] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:22:42,893 - 127.0.0.1 - - [02/Nov/2022 14:22:42] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:22:56,747 - 127.0.0.1 - - [02/Nov/2022 14:22:56] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:22:58,613 - 127.0.0.1 - - [02/Nov/2022 14:22:58] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:23:06,829 - 127.0.0.1 - - [02/Nov/2022 14:23:06] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:23:16,045 - 127.0.0.1 - - [02/Nov/2022 14:23:16] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:23:54,784 - 127.0.0.1 - - [02/Nov/2022 14:23:54] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:24:13,154 - 127.0.0.1 - - [02/Nov/2022 14:24:13] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:24:17,952 - 127.0.0.1 - - [02/Nov/2022 14:24:17] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:25:06,122 - 127.0.0.1 - - [02/Nov/2022 14:25:06] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:25:22,383 - 127.0.0.1 - - [02/Nov/2022 14:25:22] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:25:53,873 - 127.0.0.1 - - [02/Nov/2022 14:25:53] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:25:59,867 - 127.0.0.1 - - [02/Nov/2022 14:25:59] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:26:04,851 - 127.0.0.1 - - [02/Nov/2022 14:26:04] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:27:00,908 - 127.0.0.1 - - [02/Nov/2022 14:27:00] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:27:05,247 - 127.0.0.1 - - [02/Nov/2022 14:27:05] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:27:37,298 - 127.0.0.1 - - [02/Nov/2022 14:27:37] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:27:51,397 - 127.0.0.1 - - [02/Nov/2022 14:27:51] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:30:10,631 - 127.0.0.1 - - [02/Nov/2022 14:30:10] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:30:14,192 - 127.0.0.1 - - [02/Nov/2022 14:30:14] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:30:17,617 - 127.0.0.1 - - [02/Nov/2022 14:30:17] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:30:27,826 - 127.0.0.1 - - [02/Nov/2022 14:30:27] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:30:30,800 - 127.0.0.1 - - [02/Nov/2022 14:30:30] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:30:53,587 - 127.0.0.1 - - [02/Nov/2022 14:30:53] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:31:30,650 - 127.0.0.1 - - [02/Nov/2022 14:31:30] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:31:39,011 - 127.0.0.1 - - [02/Nov/2022 14:31:39] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:31:53,327 - 127.0.0.1 - - [02/Nov/2022 14:31:53] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:31:55,293 - 127.0.0.1 - - [02/Nov/2022 14:31:55] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:32:16,409 - 127.0.0.1 - - [02/Nov/2022 14:32:16] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:33:06,910 - 127.0.0.1 - - [02/Nov/2022 14:33:06] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:33:09,131 - 127.0.0.1 - - [02/Nov/2022 14:33:09] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:33:32,727 - 127.0.0.1 - - [02/Nov/2022 14:33:32] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:35:53,899 - 127.0.0.1 - - [02/Nov/2022 14:35:53] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:36:00,397 - 127.0.0.1 - - [02/Nov/2022 14:36:00] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:36:30,444 - 127.0.0.1 - - [02/Nov/2022 14:36:30] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:37:32,465 - 127.0.0.1 - - [02/Nov/2022 14:37:32] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:37:40,653 - 127.0.0.1 - - [02/Nov/2022 14:37:40] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:37:46,544 - 127.0.0.1 - - [02/Nov/2022 14:37:46] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:38:06,921 - 127.0.0.1 - - [02/Nov/2022 14:38:06] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:38:13,420 - 127.0.0.1 - - [02/Nov/2022 14:38:13] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:39:41,698 - 127.0.0.1 - - [02/Nov/2022 14:39:41] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:40:00,696 - 127.0.0.1 - - [02/Nov/2022 14:40:00] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:40:50,148 - 127.0.0.1 - - [02/Nov/2022 14:40:50] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:41:05,190 - 127.0.0.1 - - [02/Nov/2022 14:41:05] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:41:09,007 - 127.0.0.1 - - [02/Nov/2022 14:41:09] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:41:19,083 - 127.0.0.1 - - [02/Nov/2022 14:41:19] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:41:44,322 - 127.0.0.1 - - [02/Nov/2022 14:41:44] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:42:16,921 - 127.0.0.1 - - [02/Nov/2022 14:42:16] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:42:48,194 - 127.0.0.1 - - [02/Nov/2022 14:42:48] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:42:54,331 - 127.0.0.1 - - [02/Nov/2022 14:42:54] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:43:21,791 - 127.0.0.1 - - [02/Nov/2022 14:43:21] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:43:25,476 - 127.0.0.1 - - [02/Nov/2022 14:43:25] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:44:01,067 - 127.0.0.1 - - [02/Nov/2022 14:44:01] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:44:10,140 - 127.0.0.1 - - [02/Nov/2022 14:44:10] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:44:13,424 - 127.0.0.1 - - [02/Nov/2022 14:44:13] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:44:54,494 - 127.0.0.1 - - [02/Nov/2022 14:44:54] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:46:22,224 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:46:24,805 -  * Restarting with stat
+2022-11-02 14:46:30,547 -  * Debugger is active!
+2022-11-02 14:46:30,566 -  * Debugger PIN: 905-071-611
+2022-11-02 14:46:31,038 - 127.0.0.1 - - [02/Nov/2022 14:46:31] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:46:51,584 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:46:51,836 -  * Restarting with stat
+2022-11-02 14:46:54,423 -  * Debugger is active!
+2022-11-02 14:46:54,446 -  * Debugger PIN: 905-071-611
+2022-11-02 14:46:54,887 - 127.0.0.1 - - [02/Nov/2022 14:46:54] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:47:30,624 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:47:30,860 -  * Restarting with stat
+2022-11-02 14:47:33,345 -  * Debugger is active!
+2022-11-02 14:47:33,356 -  * Debugger PIN: 905-071-611
+2022-11-02 14:47:33,792 - 127.0.0.1 - - [02/Nov/2022 14:47:33] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:47:58,674 - 127.0.0.1 - - [02/Nov/2022 14:47:58] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:48:26,628 - 127.0.0.1 - - [02/Nov/2022 14:48:26] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:48:36,469 - 127.0.0.1 - - [02/Nov/2022 14:48:36] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:49:21,008 - 127.0.0.1 - - [02/Nov/2022 14:49:21] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:49:32,466 - 127.0.0.1 - - [02/Nov/2022 14:49:32] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:50:03,620 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:50:03,865 -  * Restarting with stat
+2022-11-02 14:50:06,495 -  * Debugger is active!
+2022-11-02 14:50:06,510 -  * Debugger PIN: 905-071-611
+2022-11-02 14:50:06,969 - 127.0.0.1 - - [02/Nov/2022 14:50:06] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:50:47,449 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:50:47,726 -  * Restarting with stat
+2022-11-02 14:50:50,435 -  * Debugger is active!
+2022-11-02 14:50:50,444 -  * Debugger PIN: 905-071-611
+2022-11-02 14:50:50,886 - 127.0.0.1 - - [02/Nov/2022 14:50:50] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:51:45,098 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:51:45,381 -  * Restarting with stat
+2022-11-02 14:51:48,057 -  * Debugger is active!
+2022-11-02 14:51:48,067 -  * Debugger PIN: 905-071-611
+2022-11-02 14:51:48,510 - 127.0.0.1 - - [02/Nov/2022 14:51:48] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:52:21,421 - 127.0.0.1 - - [02/Nov/2022 14:52:21] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:53:34,021 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:53:34,275 -  * Restarting with stat
+2022-11-02 14:53:36,845 -  * Debugger is active!
+2022-11-02 14:53:36,855 -  * Debugger PIN: 905-071-611
+2022-11-02 14:53:37,321 - 127.0.0.1 - - [02/Nov/2022 14:53:37] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:54:11,653 - 127.0.0.1 - - [02/Nov/2022 14:54:11] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:54:12,918 - 127.0.0.1 - - [02/Nov/2022 14:54:12] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:54:38,574 - 127.0.0.1 - - [02/Nov/2022 14:54:38] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:54:44,830 - 127.0.0.1 - - [02/Nov/2022 14:54:44] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:55:58,793 - 127.0.0.1 - - [02/Nov/2022 14:55:58] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:56:35,300 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:56:35,612 -  * Restarting with stat
+2022-11-02 14:56:38,240 -  * Debugger is active!
+2022-11-02 14:56:38,248 -  * Debugger PIN: 905-071-611
+2022-11-02 14:56:38,681 - 127.0.0.1 - - [02/Nov/2022 14:56:38] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:57:11,692 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:57:11,985 -  * Restarting with stat
+2022-11-02 14:57:14,599 -  * Debugger is active!
+2022-11-02 14:57:14,608 -  * Debugger PIN: 905-071-611
+2022-11-02 14:57:15,055 - 127.0.0.1 - - [02/Nov/2022 14:57:15] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:57:33,923 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:57:34,321 -  * Restarting with stat
+2022-11-02 14:57:37,152 -  * Debugger is active!
+2022-11-02 14:57:37,163 -  * Debugger PIN: 905-071-611
+2022-11-02 14:57:37,602 - 127.0.0.1 - - [02/Nov/2022 14:57:37] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:58:48,204 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:58:48,428 -  * Restarting with stat
+2022-11-02 14:58:51,214 -  * Debugger is active!
+2022-11-02 14:58:51,221 -  * Debugger PIN: 905-071-611
+2022-11-02 14:58:52,053 - 127.0.0.1 - - [02/Nov/2022 14:58:52] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:59:10,528 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 14:59:10,760 -  * Restarting with stat
+2022-11-02 14:59:13,393 -  * Debugger is active!
+2022-11-02 14:59:13,401 -  * Debugger PIN: 905-071-611
+2022-11-02 14:59:14,869 - 127.0.0.1 - - [02/Nov/2022 14:59:14] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 14:59:48,128 - 127.0.0.1 - - [02/Nov/2022 14:59:48] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:00:08,746 - 127.0.0.1 - - [02/Nov/2022 15:00:08] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:00:38,466 - 127.0.0.1 - - [02/Nov/2022 15:00:38] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:01:12,437 - 127.0.0.1 - - [02/Nov/2022 15:01:12] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:01:39,937 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 15:01:40,395 -  * Restarting with stat
+2022-11-02 15:01:43,171 -  * Debugger is active!
+2022-11-02 15:01:43,182 -  * Debugger PIN: 905-071-611
+2022-11-02 15:01:43,660 - 127.0.0.1 - - [02/Nov/2022 15:01:43] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:02:35,953 - 127.0.0.1 - - [02/Nov/2022 15:02:35] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:03:03,585 - 127.0.0.1 - - [02/Nov/2022 15:03:03] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:03:17,427 - 127.0.0.1 - - [02/Nov/2022 15:03:17] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:03:45,431 - 127.0.0.1 - - [02/Nov/2022 15:03:45] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:05:33,748 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 15:05:33,971 -  * Restarting with stat
+2022-11-02 15:05:36,344 -  * Debugger is active!
+2022-11-02 15:05:36,354 -  * Debugger PIN: 905-071-611
+2022-11-02 15:05:40,962 - 127.0.0.1 - - [02/Nov/2022 15:05:40] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:05:53,352 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 15:05:53,593 -  * Restarting with stat
+2022-11-02 15:05:56,288 -  * Debugger is active!
+2022-11-02 15:05:56,295 -  * Debugger PIN: 905-071-611
+2022-11-02 15:05:56,726 - 127.0.0.1 - - [02/Nov/2022 15:05:56] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:09:38,683 - 127.0.0.1 - - [02/Nov/2022 15:09:38] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:10:10,992 - 127.0.0.1 - - [02/Nov/2022 15:10:10] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:10:28,044 - 127.0.0.1 - - [02/Nov/2022 15:10:28] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:11:08,440 - 127.0.0.1 - - [02/Nov/2022 15:11:08] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:11:11,484 - 127.0.0.1 - - [02/Nov/2022 15:11:11] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:12:26,543 - 127.0.0.1 - - [02/Nov/2022 15:12:26] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:12:28,481 - 127.0.0.1 - - [02/Nov/2022 15:12:28] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:13:07,034 - 127.0.0.1 - - [02/Nov/2022 15:13:07] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:13:09,458 - 127.0.0.1 - - [02/Nov/2022 15:13:09] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:13:17,326 - 127.0.0.1 - - [02/Nov/2022 15:13:17] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:13:40,382 - 127.0.0.1 - - [02/Nov/2022 15:13:40] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:13:59,067 - 127.0.0.1 - - [02/Nov/2022 15:13:59] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:14:02,225 - 127.0.0.1 - - [02/Nov/2022 15:14:02] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:14:04,925 - 127.0.0.1 - - [02/Nov/2022 15:14:04] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:14:09,424 - 127.0.0.1 - - [02/Nov/2022 15:14:09] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:16:07,808 - 127.0.0.1 - - [02/Nov/2022 15:16:07] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:16:14,306 - 127.0.0.1 - - [02/Nov/2022 15:16:14] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:16:26,453 - 127.0.0.1 - - [02/Nov/2022 15:16:26] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:17:24,012 - 127.0.0.1 - - [02/Nov/2022 15:17:24] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:17:26,613 - 127.0.0.1 - - [02/Nov/2022 15:17:26] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:17:35,258 - 127.0.0.1 - - [02/Nov/2022 15:17:35] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:18:17,061 - 127.0.0.1 - - [02/Nov/2022 15:18:17] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:18:30,847 - 127.0.0.1 - - [02/Nov/2022 15:18:30] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:18:47,754 - 127.0.0.1 - - [02/Nov/2022 15:18:47] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:31:10,435 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 15:31:10,971 -  * Restarting with stat
+2022-11-02 15:31:14,562 -  * Debugger is active!
+2022-11-02 15:31:14,571 -  * Debugger PIN: 905-071-611
+2022-11-02 15:31:25,077 - 127.0.0.1 - - [02/Nov/2022 15:31:25] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:31:45,458 - 127.0.0.1 - - [02/Nov/2022 15:31:45] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:32:06,689 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 15:32:06,930 -  * Restarting with stat
+2022-11-02 15:32:09,245 -  * Debugger is active!
+2022-11-02 15:32:09,253 -  * Debugger PIN: 905-071-611
+2022-11-02 15:32:09,685 - 127.0.0.1 - - [02/Nov/2022 15:32:09] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:32:59,473 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 15:32:59,713 -  * Restarting with stat
+2022-11-02 15:33:02,049 -  * Debugger is active!
+2022-11-02 15:33:02,059 -  * Debugger PIN: 905-071-611
+2022-11-02 15:34:43,425 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 15:34:43,689 -  * Restarting with stat
+2022-11-02 15:34:45,993 -  * Debugger is active!
+2022-11-02 15:34:46,004 -  * Debugger PIN: 905-071-611
+2022-11-02 15:35:16,421 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 15:35:16,671 -  * Restarting with stat
+2022-11-02 15:35:18,924 -  * Debugger is active!
+2022-11-02 15:35:18,931 -  * Debugger PIN: 905-071-611
+2022-11-02 15:35:30,988 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 15:35:31,264 -  * Restarting with stat
+2022-11-02 15:51:43,456 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2022-11-02 15:51:43,457 - [33mPress CTRL+C to quit[0m
+2022-11-02 15:51:43,465 -  * Restarting with stat
+2022-11-02 15:51:49,002 -  * Debugger is active!
+2022-11-02 15:51:49,017 -  * Debugger PIN: 905-071-611
+2022-11-02 15:51:50,852 - 127.0.0.1 - - [02/Nov/2022 15:51:50] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:51:50,858 - 127.0.0.1 - - [02/Nov/2022 15:51:50] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:56:12,624 -  * Detected change in 'C:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 15:56:29,135 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2022-11-02 15:56:29,136 - [33mPress CTRL+C to quit[0m
+2022-11-02 15:56:29,139 -  * Restarting with stat
+2022-11-02 15:56:31,509 -  * Debugger is active!
+2022-11-02 15:56:31,516 -  * Debugger PIN: 905-071-611
+2022-11-02 15:56:31,958 - 127.0.0.1 - - [02/Nov/2022 15:56:31] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:56:43,972 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 15:56:44,259 -  * Restarting with stat
+2022-11-02 15:56:46,576 -  * Debugger is active!
+2022-11-02 15:56:46,581 -  * Debugger PIN: 905-071-611
+2022-11-02 15:56:47,009 - 127.0.0.1 - - [02/Nov/2022 15:56:47] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:56:54,492 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 15:56:54,714 -  * Restarting with stat
+2022-11-02 15:56:57,123 -  * Debugger is active!
+2022-11-02 15:56:57,129 -  * Debugger PIN: 905-071-611
+2022-11-02 15:56:57,551 - 127.0.0.1 - - [02/Nov/2022 15:56:57] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:58:40,074 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\bnb_base_logger.py', reloading
+2022-11-02 15:58:40,967 -  * Restarting with stat
+2022-11-02 15:58:52,154 -  * Debugger is active!
+2022-11-02 15:58:52,166 -  * Debugger PIN: 905-071-611
+2022-11-02 15:58:53,034 - 127.0.0.1 - - [02/Nov/2022 15:58:53] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 15:58:53,041 - 127.0.0.1 - - [02/Nov/2022 15:58:53] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:08:32,765 - 127.0.0.1 - - [02/Nov/2022 16:08:32] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:09:17,112 - 127.0.0.1 - - [02/Nov/2022 16:09:17] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:09:17,445 - 127.0.0.1 - - [02/Nov/2022 16:09:17] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:17:01,079 - 127.0.0.1 - - [02/Nov/2022 16:17:01] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:17:01,095 - 127.0.0.1 - - [02/Nov/2022 16:17:01] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:18:02,094 - 127.0.0.1 - - [02/Nov/2022 16:18:02] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:18:02,104 - 127.0.0.1 - - [02/Nov/2022 16:18:02] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:18:10,072 - 127.0.0.1 - - [02/Nov/2022 16:18:10] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:18:10,083 - 127.0.0.1 - - [02/Nov/2022 16:18:10] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:18:12,736 - 127.0.0.1 - - [02/Nov/2022 16:18:12] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:18:39,148 - 127.0.0.1 - - [02/Nov/2022 16:18:39] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:18:40,054 - 127.0.0.1 - - [02/Nov/2022 16:18:40] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:18:42,455 - 127.0.0.1 - - [02/Nov/2022 16:18:42] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:18:43,075 - 127.0.0.1 - - [02/Nov/2022 16:18:43] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:18:45,192 - 127.0.0.1 - - [02/Nov/2022 16:18:45] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:18:54,646 - 127.0.0.1 - - [02/Nov/2022 16:18:54] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:19:20,174 - 127.0.0.1 - - [02/Nov/2022 16:19:20] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:19:20,194 - 127.0.0.1 - - [02/Nov/2022 16:19:20] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:19:56,329 - 127.0.0.1 - - [02/Nov/2022 16:19:56] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:19:57,079 - 127.0.0.1 - - [02/Nov/2022 16:19:57] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:20:06,044 - 127.0.0.1 - - [02/Nov/2022 16:20:06] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:20:06,073 - 127.0.0.1 - - [02/Nov/2022 16:20:06] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:20:12,229 - 127.0.0.1 - - [02/Nov/2022 16:20:12] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:20:28,490 - 127.0.0.1 - - [02/Nov/2022 16:20:28] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:20:29,056 - 127.0.0.1 - - [02/Nov/2022 16:20:29] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:20:43,253 - 127.0.0.1 - - [02/Nov/2022 16:20:43] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:20:44,172 - 127.0.0.1 - - [02/Nov/2022 16:20:44] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:21:02,413 - 127.0.0.1 - - [02/Nov/2022 16:21:02] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:21:03,068 - 127.0.0.1 - - [02/Nov/2022 16:21:03] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:21:11,969 - 127.0.0.1 - - [02/Nov/2022 16:21:11] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:21:12,091 - 127.0.0.1 - - [02/Nov/2022 16:21:12] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:21:48,455 - 127.0.0.1 - - [02/Nov/2022 16:21:48] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:21:49,070 - 127.0.0.1 - - [02/Nov/2022 16:21:49] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:21:59,250 - 127.0.0.1 - - [02/Nov/2022 16:21:59] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:22:00,078 - 127.0.0.1 - - [02/Nov/2022 16:22:00] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:22:07,230 - 127.0.0.1 - - [02/Nov/2022 16:22:07] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:22:08,054 - 127.0.0.1 - - [02/Nov/2022 16:22:08] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:22:13,212 - 127.0.0.1 - - [02/Nov/2022 16:22:13] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:22:14,067 - 127.0.0.1 - - [02/Nov/2022 16:22:14] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:23:37,942 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 16:23:38,565 -  * Restarting with stat
+2022-11-02 16:23:42,757 -  * Debugger is active!
+2022-11-02 16:23:42,771 -  * Debugger PIN: 905-071-611
+2022-11-02 16:23:43,229 - 127.0.0.1 - - [02/Nov/2022 16:23:43] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:24:29,778 - 127.0.0.1 - - [02/Nov/2022 16:24:29] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:24:30,071 - 127.0.0.1 - - [02/Nov/2022 16:24:30] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:24:49,421 - 127.0.0.1 - - [02/Nov/2022 16:24:49] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:24:50,076 - 127.0.0.1 - - [02/Nov/2022 16:24:50] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:24:51,711 - 127.0.0.1 - - [02/Nov/2022 16:24:51] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:25:18,021 - 127.0.0.1 - - [02/Nov/2022 16:25:18] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:25:18,136 - 127.0.0.1 - - [02/Nov/2022 16:25:18] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:25:42,005 - 127.0.0.1 - - [02/Nov/2022 16:25:42] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:25:42,094 - 127.0.0.1 - - [02/Nov/2022 16:25:42] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:25:44,073 - 127.0.0.1 - - [02/Nov/2022 16:25:44] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:27:01,268 - 127.0.0.1 - - [02/Nov/2022 16:27:01] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:27:02,073 - 127.0.0.1 - - [02/Nov/2022 16:27:02] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:27:55,371 - 127.0.0.1 - - [02/Nov/2022 16:27:55] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:27:56,074 - 127.0.0.1 - - [02/Nov/2022 16:27:56] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:28:31,507 - 127.0.0.1 - - [02/Nov/2022 16:28:31] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:28:32,083 - 127.0.0.1 - - [02/Nov/2022 16:28:32] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:29:43,090 - 127.0.0.1 - - [02/Nov/2022 16:29:43] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:29:44,081 - 127.0.0.1 - - [02/Nov/2022 16:29:44] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:30:18,809 - 127.0.0.1 - - [02/Nov/2022 16:30:18] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:30:19,074 - 127.0.0.1 - - [02/Nov/2022 16:30:19] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:33:55,118 - 127.0.0.1 - - [02/Nov/2022 16:33:55] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:33:55,148 - 127.0.0.1 - - [02/Nov/2022 16:33:55] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:34:32,699 - 127.0.0.1 - - [02/Nov/2022 16:34:32] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:34:33,093 - 127.0.0.1 - - [02/Nov/2022 16:34:33] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:34:44,785 - 127.0.0.1 - - [02/Nov/2022 16:34:44] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:34:45,133 - 127.0.0.1 - - [02/Nov/2022 16:34:45] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:35:01,912 - 127.0.0.1 - - [02/Nov/2022 16:35:01] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:35:02,083 - 127.0.0.1 - - [02/Nov/2022 16:35:02] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:35:09,596 - 127.0.0.1 - - [02/Nov/2022 16:35:09] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:35:10,120 - 127.0.0.1 - - [02/Nov/2022 16:35:10] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:36:08,527 - 127.0.0.1 - - [02/Nov/2022 16:36:08] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:36:53,080 - 127.0.0.1 - - [02/Nov/2022 16:36:53] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:36:53,164 - 127.0.0.1 - - [02/Nov/2022 16:36:53] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:37:04,333 - 127.0.0.1 - - [02/Nov/2022 16:37:04] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:37:05,070 - 127.0.0.1 - - [02/Nov/2022 16:37:05] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:37:13,860 - 127.0.0.1 - - [02/Nov/2022 16:37:13] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:37:14,088 - 127.0.0.1 - - [02/Nov/2022 16:37:14] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:37:35,953 - 127.0.0.1 - - [02/Nov/2022 16:37:35] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:37:36,087 - 127.0.0.1 - - [02/Nov/2022 16:37:36] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:37:52,244 - 127.0.0.1 - - [02/Nov/2022 16:37:52] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:37:53,084 - 127.0.0.1 - - [02/Nov/2022 16:37:53] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:39:07,745 - 127.0.0.1 - - [02/Nov/2022 16:39:07] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:40:14,901 - 127.0.0.1 - - [02/Nov/2022 16:40:14] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:40:15,100 - 127.0.0.1 - - [02/Nov/2022 16:40:15] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:40:20,620 - 127.0.0.1 - - [02/Nov/2022 16:40:20] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:41:13,111 - 127.0.0.1 - - [02/Nov/2022 16:41:13] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:41:18,765 - 127.0.0.1 - - [02/Nov/2022 16:41:18] "GET /bnb/api/v1/stats/raw_data HTTP/1.1" 200 -
+2022-11-02 16:41:32,548 - 127.0.0.1 - - [02/Nov/2022 16:41:32] "OPTIONS /bnb/api/v1/models/ HTTP/1.1" 200 -
+2022-11-02 16:41:32,619 - 127.0.0.1 - - [02/Nov/2022 16:41:32] "POST /bnb/api/v1/models/ HTTP/1.1" 200 -
+2022-11-02 16:41:36,802 - 127.0.0.1 - - [02/Nov/2022 16:41:36] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 16:43:32,906 -  * Detected change in 'c:\\Users\\Flipside Digital\\Desktop\\ML\\ml_project_be\\services\\stats_service.py', reloading
+2022-11-02 16:43:34,779 -  * Restarting with stat
+2022-11-02 16:44:03,203 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2022-11-02 16:44:03,203 - [33mPress CTRL+C to quit[0m
+2022-11-02 16:44:03,206 -  * Restarting with stat
+2022-11-02 16:44:05,683 -  * Debugger is active!
+2022-11-02 16:44:05,703 -  * Debugger PIN: 905-071-611

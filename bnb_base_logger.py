@@ -7,6 +7,6 @@ log_file = "bnb" + str(datetime.datetime.today().date()) + ".log"
 logger.basicConfig(
     # Standard format
     format="%(asctime)s - %(message)s",
-    level=logging.DEBUG,
+    level=logging.INFO,
     handlers=[logger.FileHandler(log_file), logger.StreamHandler()],
 )
