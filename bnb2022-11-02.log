@@ -1,0 +1,20 @@
+2022-11-02 04:36:25,581 -  * Debugger is active!
+2022-11-02 04:36:25,597 -  * Debugger PIN: 745-011-106
+2022-11-02 04:36:45,430 - 127.0.0.1 - - [02/Nov/2022 04:36:45] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 04:37:06,278 - 127.0.0.1 - - [02/Nov/2022 04:37:06] "[33mGET /bnb/api/v1/stats/sdfg HTTP/1.1[0m" 404 -
+2022-11-02 04:37:31,443 -  * Detected change in 'c:\\Users\\cha_t\\Desktop\\Flask BE\\Project BE\\services\\models_service.py', reloading
+2022-11-02 04:37:36,064 -  * Debugger is active!
+2022-11-02 04:37:36,073 -  * Debugger PIN: 745-011-106
+2022-11-02 04:37:37,115 -  * Detected change in 'c:\\Users\\cha_t\\Desktop\\Flask BE\\Project BE\\services\\models_service.py', reloading
+2022-11-02 04:37:41,165 -  * Debugger is active!
+2022-11-02 04:37:41,173 -  * Debugger PIN: 745-011-106
+2022-11-02 04:37:42,227 -  * Detected change in 'c:\\Users\\cha_t\\Desktop\\Flask BE\\Project BE\\controllers\\models_controller.py', reloading
+2022-11-02 04:37:46,050 -  * Debugger is active!
+2022-11-02 04:37:46,056 -  * Debugger PIN: 745-011-106
+2022-11-02 04:37:59,318 - 127.0.0.1 - - [02/Nov/2022 04:37:59] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 04:38:21,912 - 127.0.0.1 - - [02/Nov/2022 04:38:21] "OPTIONS /bnb/api/v1/models/ HTTP/1.1" 200 -
+2022-11-02 04:38:21,957 - 127.0.0.1 - - [02/Nov/2022 04:38:21] "POST /bnb/api/v1/models/ HTTP/1.1" 200 -
+2022-11-02 04:39:15,105 -  * Detected change in 'c:\\Users\\cha_t\\Desktop\\Flask BE\\Project BE\\controllers\\ping_controller.py', reloading
+2022-11-02 04:39:20,344 -  * Debugger is active!
+2022-11-02 04:39:20,371 -  * Debugger PIN: 745-011-106
+2022-11-02 04:39:32,884 - 127.0.0.1 - - [02/Nov/2022 04:39:32] "GET /bnb/api/v1/ping/ HTTP/1.1" 200 -

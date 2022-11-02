@@ -1,4 +1,5 @@
 from flask import Blueprint
+from bnb_base_logger import logger
 
 api = Blueprint(
     name="ping_controller",
@@ -9,6 +10,6 @@ api = Blueprint(
 
 @api.route("/")
 def ping():
-    return "Pong"
+    return "Pong",200
 
 

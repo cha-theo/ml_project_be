@@ -1,6 +1,6 @@
 from flask import Blueprint, request
 from services import models_service
-import logging 
+from bnb_base_logger import logger
 
 api = Blueprint(
     name="models_controller",

@@ -1,6 +1,6 @@
 from flask import Flask, Blueprint, jsonify, request
 from services import stats_service
-import logging 
+from bnb_base_logger import logger
 
 api = Blueprint(
     name="stats_controller",

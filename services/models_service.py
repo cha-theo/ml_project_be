@@ -6,6 +6,7 @@ from flask import Blueprint, jsonify, request
 import pickle
 
 
+
 loaded_model = pickle.load(open('repo/trained_model.sav', 'rb'))
 
 
@@ -130,14 +131,17 @@ def calculate_price(data):
     # connect our main dict with room_type_dict and neighborhoods_dict
     data.update(room_type_dict)
     data.update(neighborhoods_dict)
+    data.update(amenities_dict)
 
     # remove the excess values(neighbourhood, room_type)
     del data["neighbourhood"]
     del data["room_type"]
+    del data["amenities"]
     
     data2 = pd.DataFrame.from_dict(data)
     # data_input = pd.DataFrame.from_dict(data)
 
-    # model_result = loaded_model.predict(data2)
+    model_result = loaded_model.predict(data2)
 
-    return ('The best price for your home is: {}€'.format(data))
+    return ('The best price for your home is: {:.2f}€'.format(model_result[0]))
+    # return ('The best price for your home is: {}€'.format(data))

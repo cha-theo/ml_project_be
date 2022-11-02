@@ -187,14 +187,29 @@ data_4 = [{"x": 37.9715, "y": 23.7257}] #Acropolis
 
 ScatterChart.append([data_1, data_2, data_3, data_4])
 
+#line chart of registered hosts per year
+df['registration_year'] = df[df['host_since'].notna()]['host_since'].apply(lambda x: x.split('-')[0])
+reg_hosts_per_year = df.groupby('registration_year')['registration_year'].count().sort_values(ascending=False).to_dict()
+
+LineChart = []
+
+for key in reg_hosts_per_year:
+  line_chart = {"uv": reg_hosts_per_year[key],
+    "name": key}
+  LineChart.append(line_chart)
+
+
+
+
 #charts in json type
-chart_types = ['barChart','radarChart','radialBarChart','scatterChart']
+chart_types = ['barChart','radarChart','radialBarChart','scatterChart', 'LineChart']
 
 charts = dict.fromkeys(chart_types)
 charts['barChart'] = barChart
 charts['radarChart'] = RadarChart
 charts['radialBarChart'] = RadialBarChart
 charts['scatterChart'] = ScatterChart
+charts['lineChart'] = LineChart
 
 
 
