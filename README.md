@@ -8,10 +8,9 @@ The goal of this API is to get access to AirBnB data and expose the processed da
 
 - The API was created with [Flask](https://flask.palletsprojects.com/en/2.2.x/).
 
+```
 Package Version
-
 ---
-
 autopep8 1.7.0
 certifi 2022.9.24
 charset-normalizer 2.1.1
@@ -49,6 +48,7 @@ toml 0.10.2
 urllib3 1.26.12
 Werkzeug 2.2.2
 xgboost 1.6.2
+```
 
 ## Flask Application Structure
 
