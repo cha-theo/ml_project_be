@@ -390,3 +390,92 @@
 2022-11-02 16:44:03,206 -  * Restarting with stat
 2022-11-02 16:44:05,683 -  * Debugger is active!
 2022-11-02 16:44:05,703 -  * Debugger PIN: 905-071-611
+2022-11-02 19:45:33,601 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2022-11-02 19:45:33,602 - [33mPress CTRL+C to quit[0m
+2022-11-02 19:45:33,607 -  * Restarting with stat
+2022-11-02 19:45:37,278 -  * Debugger is active!
+2022-11-02 19:45:37,320 -  * Debugger PIN: 745-011-106
+2022-11-02 19:46:31,823 - 127.0.0.1 - - [02/Nov/2022 19:46:31] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 19:47:35,439 - 127.0.0.1 - - [02/Nov/2022 19:47:35] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 19:47:42,529 - 127.0.0.1 - - [02/Nov/2022 19:47:42] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 19:48:36,890 - 127.0.0.1 - - [02/Nov/2022 19:48:36] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 19:52:59,431 - 127.0.0.1 - - [02/Nov/2022 19:52:59] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 19:53:32,116 - 127.0.0.1 - - [02/Nov/2022 19:53:32] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 19:55:36,500 - 127.0.0.1 - - [02/Nov/2022 19:55:36] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 19:57:10,937 - 127.0.0.1 - - [02/Nov/2022 19:57:10] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 20:03:52,911 - 127.0.0.1 - - [02/Nov/2022 20:03:52] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 20:04:07,353 - 127.0.0.1 - - [02/Nov/2022 20:04:07] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 20:04:21,025 - 127.0.0.1 - - [02/Nov/2022 20:04:21] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 20:04:23,992 - 127.0.0.1 - - [02/Nov/2022 20:04:23] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 20:05:03,121 - 127.0.0.1 - - [02/Nov/2022 20:05:03] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 20:06:19,414 - 127.0.0.1 - - [02/Nov/2022 20:06:19] "GET /bnb/api/v1/stats/raw_data HTTP/1.1" 200 -
+2022-11-02 20:06:41,346 - 127.0.0.1 - - [02/Nov/2022 20:06:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-02 20:07:11,600 - 127.0.0.1 - - [02/Nov/2022 20:07:11] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 20:11:48,468 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2022-11-02 20:11:48,469 - [33mPress CTRL+C to quit[0m
+2022-11-02 20:11:48,472 -  * Restarting with stat
+2022-11-02 20:11:52,298 -  * Debugger is active!
+2022-11-02 20:11:52,340 -  * Debugger PIN: 745-011-106
+2022-11-02 20:12:17,547 - 127.0.0.1 - - [02/Nov/2022 20:12:17] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 20:14:29,221 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2022-11-02 20:14:29,222 - [33mPress CTRL+C to quit[0m
+2022-11-02 20:14:29,226 -  * Restarting with stat
+2022-11-02 20:14:33,685 -  * Debugger is active!
+2022-11-02 20:14:33,729 -  * Debugger PIN: 745-011-106
+2022-11-02 20:15:16,709 - 127.0.0.1 - - [02/Nov/2022 20:15:16] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 20:16:55,688 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2022-11-02 20:16:55,689 - [33mPress CTRL+C to quit[0m
+2022-11-02 20:16:55,693 -  * Restarting with stat
+2022-11-02 20:17:00,131 -  * Debugger is active!
+2022-11-02 20:17:00,145 -  * Debugger PIN: 745-011-106
+2022-11-02 20:17:02,121 - 127.0.0.1 - - [02/Nov/2022 20:17:02] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 20:23:39,474 - 127.0.0.1 - - [02/Nov/2022 20:23:39] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 20:24:24,418 - 127.0.0.1 - - [02/Nov/2022 20:24:24] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 20:27:56,749 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2022-11-02 20:27:56,752 - [33mPress CTRL+C to quit[0m
+2022-11-02 20:27:56,762 -  * Restarting with stat
+2022-11-02 20:28:01,718 -  * Debugger is active!
+2022-11-02 20:28:01,731 -  * Debugger PIN: 745-011-106
+2022-11-02 20:28:01,756 - 127.0.0.1 - - [02/Nov/2022 20:28:01] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 20:28:58,240 - 127.0.0.1 - - [02/Nov/2022 20:28:58] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 20:29:12,842 - 127.0.0.1 - - [02/Nov/2022 20:29:12] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 21:15:26,004 - 127.0.0.1 - - [02/Nov/2022 21:15:26] "GET /bnb/api/v1/stats/raw_data HTTP/1.1" 200 -
+2022-11-02 21:15:46,226 - 127.0.0.1 - - [02/Nov/2022 21:15:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-02 21:24:37,214 - 127.0.0.1 - - [02/Nov/2022 21:24:37] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 21:24:50,246 - 127.0.0.1 - - [02/Nov/2022 21:24:50] "GET /bnb/api/v1/stats/raw_data HTTP/1.1" 200 -
+2022-11-02 21:44:50,236 - 127.0.0.1 - - [02/Nov/2022 21:44:50] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 21:47:36,892 - 127.0.0.1 - - [02/Nov/2022 21:47:36] "GET /bnb/api/v1/stats/raw_data HTTP/1.1" 200 -
+2022-11-02 21:51:12,840 - 127.0.0.1 - - [02/Nov/2022 21:51:12] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-02 21:56:33,343 - 127.0.0.1 - - [02/Nov/2022 21:56:33] "GET /bnb/api/v1/stats/raw_data HTTP/1.1" 200 -
+2022-11-02 21:56:33,739 - 127.0.0.1 - - [02/Nov/2022 21:56:33] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:23:45,111 - 127.0.0.1 - - [03/Nov/2022 01:23:45] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:23:46,912 - 127.0.0.1 - - [03/Nov/2022 01:23:46] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:26:25,685 - 127.0.0.1 - - [03/Nov/2022 01:26:25] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:27:34,743 - 127.0.0.1 - - [03/Nov/2022 01:27:34] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:27:57,257 - 127.0.0.1 - - [03/Nov/2022 01:27:57] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:28:06,433 - 127.0.0.1 - - [03/Nov/2022 01:28:06] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:28:19,688 - 127.0.0.1 - - [03/Nov/2022 01:28:19] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:28:43,363 - 127.0.0.1 - - [03/Nov/2022 01:28:43] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:28:45,562 - 127.0.0.1 - - [03/Nov/2022 01:28:45] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:29:09,063 - 127.0.0.1 - - [03/Nov/2022 01:29:09] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:30:14,479 - 127.0.0.1 - - [03/Nov/2022 01:30:14] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:30:46,142 - 127.0.0.1 - - [03/Nov/2022 01:30:46] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:31:36,558 - 127.0.0.1 - - [03/Nov/2022 01:31:36] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:31:42,655 - 127.0.0.1 - - [03/Nov/2022 01:31:42] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:31:43,937 - 127.0.0.1 - - [03/Nov/2022 01:31:43] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 01:51:06,184 - 127.0.0.1 - - [03/Nov/2022 01:51:06] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 02:14:33,328 - 127.0.0.1 - - [03/Nov/2022 02:14:33] "[33mGET /emp/api/v1/stats/ HTTP/1.1[0m" 404 -
+2022-11-03 02:14:33,467 - 127.0.0.1 - - [03/Nov/2022 02:14:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-03 02:14:53,776 - 127.0.0.1 - - [03/Nov/2022 02:14:53] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 02:17:01,899 - 127.0.0.1 - - [03/Nov/2022 02:17:01] "GET /bnb/api/v1/stats/raw_data HTTP/1.1" 200 -
+2022-11-03 02:18:09,521 - 127.0.0.1 - - [03/Nov/2022 02:18:09] "GET /bnb/api/v1/stats/raw_data HTTP/1.1" 200 -
+2022-11-03 02:18:21,254 - 127.0.0.1 - - [03/Nov/2022 02:18:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-03 02:19:15,182 - 127.0.0.1 - - [03/Nov/2022 02:19:15] "GET /bnb/api/v1/stats/ HTTP/1.1" 200 -
+2022-11-03 02:19:34,166 - 127.0.0.1 - - [03/Nov/2022 02:19:34] "OPTIONS /bnb/api/v1/models/ HTTP/1.1" 200 -
+2022-11-03 02:19:34,416 - 127.0.0.1 - - [03/Nov/2022 02:19:34] "POST /bnb/api/v1/models/ HTTP/1.1" 200 -
+2022-11-03 02:22:45,933 -  * Detected change in 'c:\\Users\\cha_t\\Desktop\\Flask BE\\Project BE\\services\\models_service.py', reloading
