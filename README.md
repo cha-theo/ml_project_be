@@ -208,5 +208,6 @@ REQUEST
 RESPONSE
 
 ```numpy.ndarray
+
 [161.0997]
 ```
