@@ -1,6 +1,6 @@
 # Flask-RESTful API project
 
-![Logo](logo.png)
+<span style="display:block;text-align:center">![Logo](logo.png)</span>
 
 ## App details
 
@@ -207,8 +207,7 @@ REQUEST
 
 RESPONSE
 
-```numpy.ndarray
-
+```
 [161.0997]
 ```
 

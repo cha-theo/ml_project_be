@@ -17,3 +17,4 @@
 2022-11-03 02:24:31,544 -  * Debugger PIN: 745-011-106
 2022-11-03 02:24:31,566 - 127.0.0.1 - - [03/Nov/2022 02:24:31] "OPTIONS /bnb/api/v1/models/ HTTP/1.1" 200 -
 2022-11-03 02:24:31,583 - 127.0.0.1 - - [03/Nov/2022 02:24:31] "POST /bnb/api/v1/models/ HTTP/1.1" 200 -
+2022-11-03 02:36:31,147 -  * Detected change in 'c:\\Users\\cha_t\\Desktop\\Flask BE\\Project BE\\app.py', reloading
