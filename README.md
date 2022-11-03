@@ -211,3 +211,12 @@ RESPONSE
 
 [161.0997]
 ```
+
+
+GET http://127.0.0.1:5001/bnb/api/v1/ping/
+
+RESPONSE
+
+```
+Pong
+```
